@@ -1,0 +1,122 @@
+/*shop.html CSS file*/
+
+/*FONTS*/
+@font-face {
+	font-family: "manrope";
+	src: url("Manrope-Regular.ttf");
+}
+@font-face {
+	font-family: "lemon";
+	src: url("LEMONMILK-Regular.otf")
+}
+
+/*CSS STYLING*/
+
+/*BODY*/
+body{
+	background-image: url("photos/");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*NAVBAR*/
+.navbar {
+	position: fixed;
+	width: 100%;
+	background-color: #e3f2fd;
+}
+.nav-link{
+	color: black;
+}
+.nav-item {
+	font-size: 20px;
+	font-family: manrope;
+	margin-left: 3vw;
+	margin-top: -0.7vh;
+}
+i{
+	color: black;
+	margin-right: 1vw;
+}
+i:hover{
+	color: #1794fe;
+}
+
+.container {
+	width: 100%;
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: manrope;
+}
+.gallery {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img-box {
+	width: 14vw;
+	height: 85vh;
+	margin: 10px;
+	border-radius: 50px;
+	background: url(photos/full.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	transition: width 0.5s;
+}
+.img-box:nth-child(1) {
+	background: url(photos/full.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.img-box:nth-child(2) {
+	background: url(photos/mini.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.img-box:nth-child(3) {
+	background: url(photos/lens.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.img-box:nth-child(4) {
+	background: url(photos/security.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.img-box p {
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	color: black;
+	opacity: 0;
+	transition: bottom 0.5s, opacity 0.5s;
+	font-family: manrope;
+}
+.img-box:hover {
+	width: 50vw;	
+	img-box:nth-child(1): width: 14vw;
+}
+.img-box:hover p {
+	opacity: 1;
+	bottom: 25px;
+}
+
+/*CONTEST*/
+.pdf{
+	width: 80%;
+	height: 100vh;
+	margin-left: 20vh;
+}
+
+/*FOOTER*/
+.footer{
+	background-color: #dcdee0;
+	width: 100%;
+	height: 24vh;
+	font-size: 16px;
+	font-family: manrope;
+	text-align: center;
+}

@@ -1,0 +1,66 @@
+/*pricing.html CSS file*/
+
+/*FONTS*/
+@font-face {
+	font-family: "manrope";
+	src: url("Manrope-Regular.ttf");
+}
+@font-face {
+	font-family: "lemon";
+	src: url("LEMONMILK-Regular.otf")
+}
+
+/*CSS STYLING*/
+
+/*BODY*/
+body{
+	background-color: darkslategray;
+}
+
+/*NAVBAR*/
+.nav-link{
+	color: #f5f5f5;
+}
+.nav-item {
+	font-size: 20px;
+	font-family: manrope;
+	margin-left: 1.5vw;
+	margin-top: 2vh;
+}
+i{
+	color: #f5f5f5;
+	margin-right: 1vw;
+}
+i:hover{
+	color: #1794fe;
+}
+
+/*PLANS*/
+.plans{
+	margin-left: 12vw;
+	margin-right: 5vw;
+	margin-top: 10vh;
+	/* border: 1px solid black; */
+}
+td{
+	width: 30vw;
+}
+.card{
+	height: 26rem;
+}
+
+/*LOGO*/
+.logo {
+	margin-top: -5vh;
+	margin-left: 3vw;
+	color: #f5f5f5;
+}
+.logo a {
+	font-family: lemon;
+	color: inherit;
+	text-decoration: inherit;
+	font-size: 40px;
+}
+.logo p {
+	font-family: manrope;
+}
